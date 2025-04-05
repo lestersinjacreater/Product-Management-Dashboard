@@ -3,13 +3,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCssHgaNaaXB6uux1HG4_6BQOL6h1zNgoI",
-    authDomain: "product-management-dashb-ce92f.firebaseapp.com",
-    projectId: "product-management-dashb-ce92f",
-    storageBucket: "product-management-dashb-ce92f.firebasestorage.app",
-    messagingSenderId: "703060275881",
-    appId: "1:703060275881:web:bd721c3473f8d4956fafb8"
-  };
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
